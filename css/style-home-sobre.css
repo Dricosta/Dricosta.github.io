@@ -1,0 +1,185 @@
+html{height: 100%!important;}
+body{height: 100%!important;}
+*{margin:0;padding: 0;}
+	
+
+#home {
+	padding: 15px;
+	width: 100%;
+	background: #00e7b4;
+	height:100%;
+}
+
+
+.container-home{
+	margin: auto;
+	width: 50%;
+	margin-top: 10%;
+	/*border: 2px #FF0 solid;*/
+}
+
+.h1-section{
+	text-align: center;
+	font-size: 1.0em;
+	top: 25%;
+	left: 40%;
+	font-weight: bold;
+	
+
+}
+
+.web-developer{
+	text-align: center;
+	font-size: 5em;
+	margin-bottom: 0;
+	font-family: 'Indie Flower'!important;
+}
+
+.p1{
+	text-align: center;
+	font-family: 'Indie Flower';
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 0px;
+}
+
+.p2{
+	text-align: center;
+	font-family: 'Indie Flower';
+	font-weight: bold;
+	font-size: 25px;
+	/*margin-top: px;*/
+}
+
+.number{
+	color: green;
+}
+
+.p3{
+	text-align: center;
+	font-family: 'Indie Flower';
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.seta{
+	margin-left: 50%;
+	margin-top: 12%;
+	margin-bottom: 2%;
+	animation: seta 1s infinite;
+	position: relative;
+}
+
+.fa-long-arrow-down:before {
+    content: "\f175";
+    font-size: 25px;
+}
+
+#sobre{
+	background: #243649;
+	padding-bottom: 20px;
+
+}
+
+.container-sobre{
+	margin: auto;
+	width: 50%;
+	margin-top: 5%;
+	/*border: 2px #FF0 solid;*/
+	position: relative;
+
+
+}
+
+#sobre h2{
+	margin-top: 10px;
+	padding-top: 30px;
+	text-align: left;
+	font-family: times;
+	font-size: 6vh;
+	color: #c9c9c9;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+
+.barra{
+
+    height: 4px;
+    width: 230px;
+    bottom: -5px;
+    left: 26%;
+    top: 120%;
+    background: #476582;
+}
+
+.subtitulo{
+	/*border: 2px #f00 solid;*/
+	color: white;
+	margin-top: 15px;
+	padding: 10px;
+	padding-left: 0 !important;
+	font-size: 26px;
+}
+
+.foto{
+	margin-top: 15px;
+	padding-left: 0;
+	margin-right: 20px;
+}
+
+.foto img{width: 100%;}
+
+.texto{
+	/*border: 3px blue solid;*/
+	margin-top: 15px;
+	color: white;
+	font-family: times;
+	font-size: 22px;
+	text-align: justify;
+	word-spacing: -1px;
+
+}
+
+.footer{
+	width: 100%;
+	margin: 0;
+	padding: 12px 0px 12px 0px;
+	background: black;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+
+}
+@keyframes seta {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15px);
+	}
+}
+
+@media (max-width: 992px) and (max-width: 1199px){
+	#log{font-size: 60px;}
+}
+
+
+.menu-color{background: #00e7b4;}
+
+
+
+
+
+
+
+
+
+
+
+

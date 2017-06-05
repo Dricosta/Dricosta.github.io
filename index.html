@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <title>Adriano da Costa - Desenvolvedor Front end</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/style-home-sobre.css">
+	  <!-- CSS assets -->
+	  <link rel="stylesheet" href="assets/css/main.css" />
+	  
+	  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="js/jquery.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+	<!-- Header -->
+					<header id="header">
+						<div class="inner">
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html#sobre">Sobre</a></li>
+							<li><a href="projetos.html">Projetos</a></li>
+							<li><a href="projetos.html#contatos">Contatos</a></li>
+							<li><a href="makeking-of.html">Making-of</a></li>
+						</ul>
+					</nav>
+
+
+
+
+		
+
+
+			<h1 class="h1-section">Olá! Meu nome é Adriano da Costa</h1>
+
+			<p id="log" class="web-developer"></p>
+
+			<p class="p1">{( há <span class="number">10</span> tipos de pessoas no mundo, as que entendem binários )}</p>
+			<p class="p2">...</p>
+			<p class="p3">{( E as que não entendem )}</p>
+			
+		<i class="seta fa fa-long-arrow-down" aria-hidden="true"></i>
+	</section>
+
+	<section id="sobre">
+		<div class="container-sobre">
+			<h2 class="titulo">O futuro desenvolvedor<br>Front end</h2>
+			<div class="barra"></div>
+			<div class="subtitulo">Com 17 anos de idade, moro em São Paulo, sou apaixonado por código, desenvolvimento e bons resultados</div>
+				
+			<div class="texto clearfix">
+				<div class="foto col-lg-4">
+					<img src="imagens/eu-new3.jpg">
+				</div>
+				<p>Apto a trabalhar com gerenciamento e desenvolvimento de páginas na Web, Utilizando e respeitando técnicas de SEO. Produzir código limpo, bem documentado e estruturado, para caso tenha que haver uma manutenção no código, uma nova implementação, seja fácil localizar e fazer as alterações devidas. Trabalhar bem em equipe é essencial, desta forma, estou ciente de cumprir meus deveres e facilitar não só o desempenho dos desenvolvedores back-end mas também, de toda minha equipe para que seja atendida a demanda do projeto.</p>
+			</div>
+			
+		</div>
+	</section>
+
+	<footer class="footer"> @ Copyright - Adriano da Costa Pinto</footer>
+
+	<script type="text/javascript">
+
+		function typeWritter(texto, idElemento, tempo){
+		    var char = texto.split('').reverse();
+		    var typer = setInterval(function () {
+		        if (!char.length) return clearInterval(typer);
+		        var next = char.pop();
+		        document.getElementById(idElemento).innerHTML += next;
+		    }, tempo);
+		}
+		typeWritter('Web Developer','log',180);
+	</script>
+
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+
+
+
+
+</body>
+</html>

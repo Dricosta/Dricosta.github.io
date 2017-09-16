@@ -1,15 +1,31 @@
 /*
-	Phantom by HTML5 UP
+	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Icon */
+
+	.icon.major {
+		border: none;
+	}
+
+		.icon.major:before {
+			font-size: 3em;
+		}
+
 /* Form */
 
-	form .field {
-		float: none !important;
-		width: 100% !important;
-		padding-left: 0 !important;
+	label {
+		color: #2E3842;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		border: solid 1px #dfdfdf;
 	}
 
 /* Button */
@@ -19,55 +35,61 @@
 	input[type="button"],
 	button,
 	.button {
-		border: solid 2px #585858 !important;
+		border: solid 2px #dfdfdf;
 	}
-
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
-			border-color: #f2849e !important;
-		}
 
 		input[type="submit"].special,
 		input[type="reset"].special,
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			border: none !important;
+			border: 0 !important;
 		}
 
-/* Tiles */
+/* Page Wrapper + Menu */
 
-	.tiles article > .image:before, .tiles article > .image:after {
+	#menu {
 		display: none;
+	}
+
+	body.is-menu-visible #menu {
+		display: block;
 	}
 
 /* Header */
 
-	#header .logo .symbol {
+	#header nav > ul > li > a.menuToggle:after {
 		display: none;
 	}
 
-	#header nav ul li a[href="#menu"] {
-		text-indent: 0;
-		width: auto;
-		font-size: 0.8em;
+/* Banner + Wrapper (style4) */
+
+	#banner,
+	.wrapper.style4 {
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 	}
 
-		#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
+		#banner:before,
+		.wrapper.style4:before {
 			display: none;
 		}
 
-/* Footer */
+/* Banner */
 
-	#footer > .inner section {
-		width: 50%;
-		margin-left: 3em;
+	#banner .more {
+		height: 4em;
 	}
 
-		#footer > .inner section:first-child {
-			margin-left: 0;
-			width: 40%;
+		#banner .more:after {
+			display: none;
+		}
+
+/* Main */
+
+	#main > header {
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	}
+
+		#main > header:before {
+			display: none;
 		}

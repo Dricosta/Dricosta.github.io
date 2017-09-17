@@ -2583,6 +2583,9 @@
 				width: 55%;
 			}
 
+			.spotlight .progress{
+				width: 90%;
+			}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2604,7 +2607,7 @@
 					max-width: none;
 					text-align: center;
 					width: 100%;
-				}
+				}	
 
 		}
 
